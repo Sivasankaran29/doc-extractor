@@ -112,14 +112,6 @@ MongoDB Property Graph
 | Method | Path | Description |
 |--------|------|-------------|
 | `POST` | `/extract` | Upload PDF for processing |
-| `GET` | `/extractions` | List all summaries |
-| `GET` | `/extractions/{id}` | All page nodes for an extraction |
-| `GET` | `/extractions/{id}/graph` | Full graph (nodes + edges) |
-| `GET` | `/nodes/{id}` | Single page node |
-| `GET` | `/nodes/{id}/neighbors` | Edges from/to a node |
-| `GET` | `/doc-types` | All distinct document types |
-| `GET` | `/docs-by-type/{type}` | Filter by industrial doc type |
-| `GET` | `/search/similar?q=...` | Semantic search via embedding |
 | `GET` | `/health` | Health check |
 
 ### Semantic Search Example
