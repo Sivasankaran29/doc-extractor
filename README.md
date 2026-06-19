@@ -114,6 +114,10 @@ MongoDB Property Graph
 | `POST` | `/extract` | Upload PDF for processing |
 | `GET` | `/health` | Health check |
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 27b2c967d9597986eb9cb49843c2fe7dcad38a16
 
 ---
 
