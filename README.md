@@ -114,14 +114,7 @@ MongoDB Property Graph
 | `POST` | `/extract` | Upload PDF for processing |
 | `GET` | `/health` | Health check |
 
-### Semantic Search Example
-```bash
-# Find pages similar to a query
-curl "http://localhost:8000/search/similar?q=centrifugal+pump+seal+failure&threshold=0.80"
 
-# Filter by doc type
-curl "http://localhost:8000/search/similar?q=high+voltage+isolation&doc_type=Electrical+Diagram"
-```
 
 ---
 
