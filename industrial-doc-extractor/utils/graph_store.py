@@ -76,6 +76,9 @@ async def get_neighbors(node_id: str) -> dict:
     incoming = await get_edges_to(node_id)
     return {"outgoing": outgoing, "incoming": incoming}
 
+
+# ── Semantic similarity edges ──────────────────────────────────────
+
 async def find_similar_nodes(
     embedding: list[float],
     threshold: float = 0.82,
