@@ -16,7 +16,7 @@ class Settings(BaseSettings):
     azure_embedding_deployment_name: str = "text-embedding-ada-002"
 
     # MongoDB
-    MONGODB_URI: str = "mongodb+srv://sivakns29:Knkjs0129@cluster0.sf9spz5.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+    MONGODB_URI: str = "mongodb://localhost:27017"
     MONGODB_DB: str = "pdf_extractions"
 
     # Ollama

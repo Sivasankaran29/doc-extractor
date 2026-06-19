@@ -245,3 +245,4 @@ async def process_pdf(
     await build_semantic_edges(nodes)
 
     return nodes
+
